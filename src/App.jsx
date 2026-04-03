@@ -1,11 +1,9 @@
 import "./App.css";
-
+import Body from "./components/Body.jsx";
 function App() {
 	return (
 		<>
-			<section id="center">
-				<h1>Reselling Dash</h1>
-			</section>
+			<Body />
 		</>
 	);
 }
