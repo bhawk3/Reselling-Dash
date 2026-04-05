@@ -1,9 +1,11 @@
 import "./App.css";
-import Body from "./components/Body.jsx";
+import Header from "./components/Header.jsx";
+import InventoryManager from "./components/InventoryManager.jsx";
 function App() {
 	return (
 		<>
-			<Body />
+			<Header />
+			<InventoryManager />
 		</>
 	);
 }

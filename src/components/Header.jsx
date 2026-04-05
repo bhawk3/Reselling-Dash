@@ -1,6 +1,6 @@
 //This is the DOM rendering file
 
-export default function Body() {
+export default function Header() {
 	return (
 		<>
 			<h1>Welcome to the Reselling Dashboard!</h1>
