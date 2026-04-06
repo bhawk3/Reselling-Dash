@@ -1,0 +1,154 @@
+{
+	"inventory": [
+		{
+			"Id": 1,
+			"Name": "Wireless Mouse",
+			"Quantity": 50,
+			"Status": "Sold",
+			"Bought Price": 8.5,
+			"Sold Price": 15.0,
+			"Profit": 325.0,
+			"Sourcing Location": "eBay"
+		},
+		{
+			"Id": 2,
+			"Name": "Bluetooth Headphones",
+			"Quantity": 30,
+			"Status": "In Stock",
+			"Bought Price": 20.0,
+			"Sold Price": 0,
+			"Profit": 0,
+			"Sourcing Location": "Goodwill"
+		},
+		{
+			"Id": 3,
+			"Name": "USB-C Cable",
+			"Quantity": 100,
+			"Status": "Sold",
+			"Bought Price": 2.0,
+			"Sold Price": 5.0,
+			"Profit": 300.0,
+			"Sourcing Location": "Garage Sale"
+		},
+		{
+			"Id": 4,
+			"Name": "Laptop Stand",
+			"Quantity": 25,
+			"Status": "Pending",
+			"Bought Price": 10.0,
+			"Sold Price": 18.0,
+			"Profit": 200.0,
+			"Sourcing Location": "Estate Sale"
+		},
+		{
+			"Id": 5,
+			"Name": "Smartphone Case",
+			"Quantity": 75,
+			"Status": "Sold",
+			"Bought Price": 3.0,
+			"Sold Price": 9.0,
+			"Profit": 450.0,
+			"Sourcing Location": "Other"
+		},
+		{
+			"Id": 6,
+			"Name": "Gaming Keyboard",
+			"Quantity": 20,
+			"Status": "In Stock",
+			"Bought Price": 25.0,
+			"Sold Price": 0,
+			"Profit": 0,
+			"Sourcing Location": "eBay"
+		},
+		{
+			"Id": 7,
+			"Name": "Portable Charger",
+			"Quantity": 60,
+			"Status": "Sold",
+			"Bought Price": 12.0,
+			"Sold Price": 20.0,
+			"Profit": 480.0,
+			"Sourcing Location": "Goodwill"
+		},
+		{
+			"Id": 8,
+			"Name": "LED Desk Lamp",
+			"Quantity": 40,
+			"Status": "Pending",
+			"Bought Price": 15.0,
+			"Sold Price": 25.0,
+			"Profit": 400.0,
+			"Sourcing Location": "Estate Sale"
+		},
+		{
+			"Id": 9,
+			"Name": "Webcam HD",
+			"Quantity": 35,
+			"Status": "Sold",
+			"Bought Price": 18.0,
+			"Sold Price": 30.0,
+			"Profit": 420.0,
+			"Sourcing Location": "Garage Sale"
+		},
+		{
+			"Id": 10,
+			"Name": "External Hard Drive",
+			"Quantity": 15,
+			"Status": "In Stock",
+			"Bought Price": 45.0,
+			"Sold Price": 0,
+			"Profit": 0,
+			"Sourcing Location": "Other"
+		},
+		{
+			"Id": 11,
+			"Name": "Smart Watch",
+			"Quantity": 22,
+			"Status": "Sold",
+			"Bought Price": 35.0,
+			"Sold Price": 60.0,
+			"Profit": 550.0,
+			"Sourcing Location": "eBay"
+		},
+		{
+			"Id": 12,
+			"Name": "Tablet Stand",
+			"Quantity": 55,
+			"Status": "Pending",
+			"Bought Price": 7.0,
+			"Sold Price": 12.0,
+			"Profit": 275.0,
+			"Sourcing Location": "Goodwill"
+		},
+		{
+			"Id": 13,
+			"Name": "Noise Cancelling Earbuds",
+			"Quantity": 28,
+			"Status": "Sold",
+			"Bought Price": 22.0,
+			"Sold Price": 40.0,
+			"Profit": 504.0,
+			"Sourcing Location": "Estate Sale"
+		},
+		{
+			"Id": 14,
+			"Name": "HDMI Adapter",
+			"Quantity": 80,
+			"Status": "In Stock",
+			"Bought Price": 4.0,
+			"Sold Price": 0,
+			"Profit": 0,
+			"Sourcing Location": "Garage Sale"
+		},
+		{
+			"Id": 15,
+			"Name": "Wireless Charger",
+			"Quantity": 45,
+			"Status": "Sold",
+			"Bought Price": 10.0,
+			"Sold Price": 18.0,
+			"Profit": 360.0,
+			"Sourcing Location": "Other"
+		}
+	]
+}

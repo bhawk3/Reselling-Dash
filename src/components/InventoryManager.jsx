@@ -7,6 +7,7 @@ export default function InventoryManager() {
 			<table>
 				<thead>
 					<tr>
+						<th>SKU</th>
 						<th>Name</th>
 						<th>Quantity</th>
 						<th>Status</th>
