@@ -1,7 +1,7 @@
 //This is going to contain the table head / tbody and then the individual table rows will get placed in their own component
 import InventoryData from "./InventoryData";
 
-export default function InventoryManager() {
+export default function InventoryManager({ item }) {
 	return (
 		<>
 			<table>
@@ -18,7 +18,7 @@ export default function InventoryManager() {
 					</tr>
 				</thead>
 				<tbody>
-					<InventoryData />
+					<InventoryData item={item} />
 				</tbody>
 			</table>
 		</>

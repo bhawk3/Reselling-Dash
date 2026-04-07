@@ -9,12 +9,12 @@ function App() {
 
 	//Fetching data from JSON file
 	useEffect(() => {
-		fetch("./Data.json")
+		fetch("/Data.json")
 			.then((res) => {
 				if (!res.ok) {
 					throw new Error(`HTTP error! Status: ${res.status}`);
 				}
-				return res.json;
+				return res.json();
 			})
 			.then((item) => setItem(item))
 			.catch((error) => console.log("Error fetching data", error));
@@ -23,7 +23,7 @@ function App() {
 	return (
 		<>
 			<Header />
-			<InventoryManager />
+			<InventoryManager item={item} />
 		</>
 	);
 }
