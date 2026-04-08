@@ -1,9 +1,11 @@
 //This is going to contain the table head / tbody and then the individual table rows will get placed in their own component
 import InventoryData from "./InventoryData";
+import Navbar from "./Navbar";
 
 export default function InventoryManager({ item }) {
 	return (
 		<>
+			<Navbar />
 			<table>
 				<thead>
 					<tr>

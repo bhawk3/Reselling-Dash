@@ -1,0 +1,17 @@
+.navbar-btn-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+button {
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
+	margin-right: 15px;
+	width: 100px;
+}
+
+button:hover {
+	background-color: aliceblue;
+	border-color: aliceblue;
+}
