@@ -20,6 +20,16 @@ function App() {
 			.catch((error) => console.log("Error fetching data", error));
 	});
 
+	//Handling Status updates. This might not be the file for this idk
+	/*
+		1) Create a function that maps over the current state so it creates a new array.
+			1A) Use the Id to verify its the right item
+			1B) Use the spread operator bc you want everything then target the Status
+			1C) Then we need to update the original state
+		2) In the return() map over the current state and add a <select> that has value={item.Status} and an onChange to call function
+			In the onChange might need to add 2 parameters the item.Id and e.target.value but thats tbd 
+	*/
+
 	return (
 		<>
 			<Header />

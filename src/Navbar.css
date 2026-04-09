@@ -1,6 +1,7 @@
 .navbar-btn-container {
 	display: flex;
 	justify-content: flex-end;
+	margin: 25px 0px 25px 0px;
 }
 
 button {
