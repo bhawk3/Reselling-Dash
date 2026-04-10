@@ -20,7 +20,7 @@ function App() {
 			.catch((error) => console.log("Error fetching data", error));
 	});
 
-	//Handling Status updates. This might not be the file for this idk
+	//Handling Status updates. This might not be the file for this idk. Maybe do step 1 in here then pass it down to inventory data
 	/*
 		1) Create a function that maps over the current state so it creates a new array.
 			1A) Use the Id to verify its the right item
@@ -30,10 +30,21 @@ function App() {
 			In the onChange might need to add 2 parameters the item.Id and e.target.value but thats tbd 
 	*/
 
+	const handleStatusChange = (id, newStatus) => {
+		setItem((prevItem) => {
+			console.log(prevItem);
+
+			prevItem.map((products) => {
+				//console.log(products);
+				products.Id === id ? { ...products, Status: newStatus } : products;
+			});
+		});
+	};
+
 	return (
 		<>
 			<Header />
-			<InventoryManager item={item} />
+			<InventoryManager handleStatus={handleStatusChange} item={item} />
 		</>
 	);
 }

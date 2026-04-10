@@ -2,7 +2,7 @@
 import InventoryData from "./InventoryData";
 import Navbar from "./Navbar";
 
-export default function InventoryManager({ item }) {
+export default function InventoryManager({ item, handleStatus }) {
 	return (
 		<>
 			<Navbar />
@@ -20,7 +20,7 @@ export default function InventoryManager({ item }) {
 					</tr>
 				</thead>
 				<tbody>
-					<InventoryData item={item} />
+					<InventoryData handleStatus={handleStatus} item={item} />
 				</tbody>
 			</table>
 		</>
