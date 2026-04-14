@@ -31,14 +31,13 @@ function App() {
 	*/
 
 	const handleStatusChange = (id, newStatus) => {
-		setItem((prevItem) => {
-			console.log(prevItem);
-
-			prevItem.map((products) => {
+		setItem((prevItem) => ({
+			...prevItem,
+			inventory: prevItem.inventory.map((products) => {
 				//console.log(products);
-				products.Id === id ? { ...products, Status: newStatus } : products;
-			});
-		});
+				return products.Id === id ? { ...products, Status: newStatus } : products;
+			}),
+		}));
 	};
 
 	return (
