@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
 import InventoryManager from "./components/InventoryManager.jsx";
+import Navbar from "./components/Navbar.jsx";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 			In the onChange might need to add 2 parameters the item.Id and e.target.value but thats tbd 
 	*/
 
+	//This is the function that handles the Status dropdown.
 	const handleStatusChange = (id, newStatus) => {
 		setItem((prevItem) => ({
 			...prevItem,
@@ -37,6 +39,16 @@ function App() {
 				//console.log(products);
 				return products.Id === id ? { ...products, Status: newStatus } : products;
 			}),
+		}));
+	};
+
+	//This is the function that handles the Filter button.
+	const handleFilter = (filterStatus) => {
+		setItem((prevLocation) => ({
+			...prevLocation,
+			//["Sourcing Location"]: prevLocation.inventory.groupBy(prevLocation, ({ Name }) => Name)
+			//Double check this to ensure you understand
+			inventory: prevLocation.inventory.filter((products) => products["Sourcing Location"] === filterStatus),
 		}));
 	};
 
