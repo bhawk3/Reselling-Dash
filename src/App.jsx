@@ -55,7 +55,7 @@ function App() {
 	return (
 		<>
 			<Header />
-			<InventoryManager handleStatus={handleStatusChange} item={item} />
+			<InventoryManager handleStatus={handleStatusChange} handleFilter={handleFilter} item={item} />
 		</>
 	);
 }

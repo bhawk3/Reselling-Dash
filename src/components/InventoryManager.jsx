@@ -2,10 +2,10 @@
 import InventoryData from "./InventoryData";
 import Navbar from "./Navbar";
 
-export default function InventoryManager({ item, handleStatus }) {
+export default function InventoryManager({ item, handleStatus, handleFilter }) {
 	return (
 		<>
-			<Navbar />
+			<Navbar handleFilter={handleFilter} />
 			<table>
 				<thead>
 					<tr>

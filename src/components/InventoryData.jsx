@@ -19,7 +19,7 @@ export default function InventoryData({ item, handleStatus }) {
 					<td>{singleItem.Name}</td>
 					<td>{singleItem.Quantity}</td>
 					<td>
-						<select key={singleItem.Id} onChange={(e) => handleStatus(singleItem.id, e.target.value)}>
+						<select name="status" key={singleItem.Id} onChange={(e) => handleStatus(singleItem.id, e.target.value)}>
 							<option value="Sold">Sold</option>
 							<option value="In Stock">In Stock</option>
 							<option value="Pending">Pending</option>
