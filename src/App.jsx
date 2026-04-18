@@ -19,7 +19,7 @@ function App() {
 			})
 			.then((item) => setItem(item))
 			.catch((error) => console.log("Error fetching data", error));
-	});
+	}, []);
 
 	//Handling Status updates. This might not be the file for this idk. Maybe do step 1 in here then pass it down to inventory data
 	/*
@@ -50,6 +50,7 @@ function App() {
 			//Double check this to ensure you understand
 			inventory: prevLocation.inventory.filter((products) => products["Sourcing Location"] === filterStatus),
 		}));
+		//console.log(filterStatus);
 	};
 
 	return (
